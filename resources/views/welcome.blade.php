@@ -83,11 +83,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://www.deqianghe.xyz:8089/index">laravelCode</a>
+                    <a href="#">代码集结地</a>
+                    <a href="http://www.deqianghe.xyz:8080">个人博客</a>
+                    <a href="https://github.com/hedeqiang9436">GitHub</a>
                 </div>
             </div>
         </div>

@@ -14,5 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::group(['middleware' => ['web']], function () {
+    Route::any('/wechat', 'WeChatController@serve');
+    Route::get('/users', 'UsersController@users');
+    Route::get('/user{openid}', 'UsersController@user');
+    Route::get('/remark{openid}', 'UsersController@remark');  //修改备注
 
-Route::any('/wechat', 'WeChatController@serve');
+    Route::get('/image','MateralController@image');
+    Route::get('/video','MateralController@video');
+
+    //得到素材
+    Route::get('/materals','MateralController@materals');
+    Route::get('/materal','MateralController@materal');
+
+
+    Route::get('/menu','MenuController@menu');  //菜单
+    Route::get('/menu/all','MenuController@all');
+});
+
+
+

@@ -36,8 +36,7 @@ class WeChatController extends Controller
                     }
                     break;
                 case 'images':
-                    $image=new Image(['media_id'=>'ID']);
-                    $wechat->staff->message($image)->to($message->FromUserName)->send();
+
                     return '收到图片消息';
                     break;
                 case 'voice':
