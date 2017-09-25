@@ -62,6 +62,9 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .m-b-link{
+               margin-top: 40px;
+            }
         </style>
     </head>
     <body>
@@ -79,13 +82,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    LaravelCode
                 </div>
-
-                <div class="links">
-                    <a href="http://www.deqianghe.xyz:8089/index">laravelCode</a>
+           
+                <div class="links m-b-link">
+                    <a href="https://laravelcode.deqianghe.xyz/index">laravelCode</a>
                     <a href="#">代码集结地</a>
-                    <a href="http://www.deqianghe.xyz:8080">个人博客</a>
+                    <a href="https://blog.deqianghe.xyz">个人博客</a>
                     <a href="https://github.com/hedeqiang9436">GitHub</a>
                 </div>
             </div>
